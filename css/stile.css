@@ -93,12 +93,15 @@ header button{
     width: 500px;
 }
 #iconoLupa{
-    position: absolute;;
-    padding: 20px;
-    left: 900px;
+    position: absolute;
+    display: flex;
+    left: 896px;
     top: 50px;
-    background: url(../img/busqueda.png);
-    background-size: cover;
+    height: 42px;
+    width: 44px;
+  }
+#iconoLupa img{
+    max-width: 100%;
 }
 #carrito{
     position: absolute;
@@ -109,15 +112,19 @@ header button{
     background-size: cover;
 }
 #contador{
-    width: 20px;
-    height: 20px;
-    background-color:#e64d3c;
-    float: left;
-    text-align: center;
-    font-size: 13px;
+    position: relative;
+  
+    width: 29px;
+    height: 28px;
+    background-color: #e64d3c;
     border-radius: 50%;
+    right: 18px;
+}
+#contador p{
+    font-size: 20px;
     position: absolute;
-    right: 25px
+    left: 11px;
+    top: 4px;
 
 }
 #slider{
