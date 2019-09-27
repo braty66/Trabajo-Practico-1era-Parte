@@ -113,12 +113,12 @@ header button{
 }
 #contador{
     position: relative;
-  
     width: 29px;
     height: 28px;
     background-color: #e64d3c;
     border-radius: 50%;
-    right: 18px;
+    right: -297px;
+    display: flex;
 }
 #contador p{
     font-size: 20px;
