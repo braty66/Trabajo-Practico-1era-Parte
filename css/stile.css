@@ -9,12 +9,23 @@ body{
 
 }
 header{
+    
     font-family: 'Turret Road', cursive;
     font-size: 40px;
     background-image: url(../img/747886.jpg);
     background-size: cover;
     display: flex;
     padding: 25px;
+}
+#logo{ 
+    position: relative;
+    bottom: 62px;
+    left: -43px;
+    padding: 45px;
+}
+#logo img{
+    position: absolute;
+    max-width: 100%;
 }
 h1{
     color: rgb(226, 219, 219);
@@ -52,30 +63,27 @@ li{
     text-decoration: none;
 
 }
-#logo{ 
-    position: relative;
-    bottom: 2px;
-    left: 3px;
-    height: 0.2px;
-    background-size: cover;    
-    padding:45px;
-    background-image: url(../img/descarga.png);
-}
+
 form{
+    
     position: relative;
     left: 33px;
     top:19px;
     
 }
-.botonBuscador{
+header button{
     text-decoration: none;
-    padding: 10px;
     font-weight: 600;
     font-size: 20px;
     color: #ffffff;
-    background-color:#D99C52;
+    background-color: #D99C52;
     border-radius: 20px;
     border: 2px solid #D99C52;
+    position: relative;
+    left: 42px;
+    height: 53px;
+    top: 20px;
+    width: 90px;
 }
 #miBusqueda{
     font-size: 15px;
