@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     font-family: 'Courier New', Courier, monospace;
@@ -95,7 +96,7 @@ header button{
 #iconoLupa{
     position: absolute;
     display: flex;
-    left: 896px;
+    left: 856px;
     top: 50px;
     height: 42px;
     width: 44px;
@@ -106,7 +107,7 @@ header button{
 #carrito{
     position: absolute;
     padding: 40px;
-    left: 1235px;
+    left: 1208px;
     top: 18px;
     background-image: url(../img/carro.png);
     background-size: cover;
@@ -132,6 +133,10 @@ header button{
     height: 720px;
     width: 1349px;
    
+}
+.comunidad{
+    position: absolute;
+    background-color: beige;
 }
 .flechaIzquierda {
     background-image: url(../img/flecha-hacia-la-izquierda.png);
@@ -169,297 +174,149 @@ header button{
 }
 
 h2{
-   color: beige;
-   padding: 200px;
-   font-size:40px;
-   font-weight: bold;
+ text-align: left;
+   
   
 }
-.pasos {
-    position: absolute;
-    top: -88px;
-    left: -193px;
 
-}
 h3{
-    color: #6AA5D9;
-    padding: 50px;
-    font-size: 25px;
-    text-align: center;
+   text-align: left;
 }
-.contenedor{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-around;
+
+h4{
+    text-align: left;
 }
-.box1{
-    text
-    color:#ca9038;
-    font-size:20px;
-    font-weight: bold;
-    background-image: url(../img/Blue_Digital_Waves_Abstract-Glare_Line_Vector_HD_Wallpaper\ Wallpaper_1920x1080[10wallpaper.com].jpg);
-    background-size: cover;
-    width: 400px;
-    height: 200px;
-    position: relative;
-    border: 2px solid #000;
-}
-.box2{
-    color:#ca9038;
-    font-size:20px;
-    font-weight: bold; 
-    background-image: url(../img/anthony-martino-6AtQNsjMoJo-unsplash.jpg);
-    background-size: cover;
-    position: relative;
-    width: 400px;
-    height: 200px;
-    border: 2px solid #000;
-}
-.box3{ 
-    color:#ca9038;
-    font-size:20px;
-    font-weight: bold;
-    background-image: url(../img/jeshoots-com--2vD8lIhdnw-unsplash.jpg);
-    background-size: cover;
-    position: relative;
-    width: 400px;
-    height: 200px;
-    border: 2px solid #000;
+.pasosTitulo{
+    background-color: beige;
+    position: absolute;
 }
 .contenedorPasos{
-    color: #6AA5D9;
-    padding: 200px;
-    }
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+.contenedorPasos img{
+    max-width: 100%;
+
+}
+.contenedorImagen{
+    position: relative;
+}
+.contenedorPasos article{
+    width: calc(30% - 20px);
     
+    
+}
+.contenedorImagen h4{
+    position:absolute;
+    right: 0;
+    bottom:20px;
+    padding: 7px;
+    background-color: beige;
+}
     
 .contenedorCursos{
-        justify-content: space-around;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap; 
-        align-items: flex-start;
-        
-        }
-.boxCurso{
-    background-color:white; 
-  color: beige;
-  height: 360px;
-  width: 300px;
-  border:2px solid #000;
-  margin: 20px;
-  }
-  .curso1{
-      background-image: url(../img/wp2126691-unreal-wallpapers.jpg);
-      background-color: #6AA5D9;
-      background-size: cover;
-      position: relative;
-      padding: 120px;
-      margin: 10px;
-  }
-
-.curso2{
-    background-image: url(../img/wp2465901-javascript-wallpapers.jpg);
-    background-size: contain;
-    background-color: #6AA5D9;
-      position: relative;
-      padding: 120px;
-      margin: 10px;
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 80px;
 }
-.curso3{
-    background-image: url(../img/wp3291223-best-adobe-illustrator-tutorials-for-background.jpg);
-    background-color: #6AA5D9;
-    background-size: cover;
-   
-      position: relative;
-      padding: 120px;
-      margin: 10px;
+.contenedorCursos img{
+    max-width: 100%;
 }
-.curso4{
-    background-image: url(../img/wp4048628-java-wallpapers.jpg);
-    background-color: #6AA5D9;
-    background-size: cover;
-    position: relative;
-    padding: 120px;
-    margin: 10px;
-
+.contenedorCursos article{
+    width:calc(30% - 20px);
+    margin-top:20px;
+    margin-bottom:20px;
+    background-color: beige;
 }
-.curso5{
-    background-image: url(../img/wp4635802-pixel-android-10-wallpapers.png);
-    background-color: #6AA5D9;
-    background-size: cover;
-      position: relative;
-      padding: 120px;
-      margin: 10px;
+.contenedorImagen{
+    position:relative;
 }
-.curso6{
-    background-image: url(../img/A1Pqnbm-photoshop-wallpapers.jpg);
-    background-color: #6AA5D9;
-    background-size: cover;
-      position: relative;
-      padding: 120px;
-      margin: 10px;
-}
-.precio1{
-    background:beige;
-    color:black;
-    padding: 10px;
+.contenedorImagen h4{
     position: absolute;
-    top: 1465px;
-    left: 85px;
-
+    right:0;
+    bottom:20px;
+    background-color:#000;
+    color:#ccc;
+    padding:7px;
 }
-.precio2{
-    background:beige;
-    color:black;
-    padding: 10px;
+.tituloDestacados{
+    background-color: beige;
+
     position: absolute;
-    top: 1465px;
-    left: 535px;
+}
 
-}
-.precio3{background:beige;
-    color:black;
-    padding: 10px;
-    position: absolute;
-    top: 1465px;
-    left: 984px;
-
-}
-.precio4{background:beige;
-    color:black;
-    padding: 10px;
-    position: absolute;
-    top:1870px;
-    left:85px;
-    }
-.precio5{background:beige;
-    color:black;
-    padding: 10px;
-    position: absolute;
-    top: 1870px;
-    left:535px;
-
-}
-.precio6{background:beige;
-    color:black;
-    padding: 10px;
-    position: absolute;
-    top:1870px;
-    left: 984px;
-
-}
-.horas{
-    color: #000;
-    position: relative;
-    top: 300px;
-    left: 10px;
-    font-size: x-large;
-    font-weight: bolder;
-}
-.nombreCurso{
-    color: #000;
-    position: relative;
-    left: 10px;
-    font-size: large;
-    font-weight: bolder;
-    top: -23px;
-    left: -11px;
-    text-align: right;
-}
-.contenedorCursos a{
-    color: rgb(218, 140, 51);
-    text-decoration: none;
-    position: relative;
-    left: 206px;
-    font-size: x-small;
-    top: 16px;
-}
-.contenedorCursos a:hover{
-    color: black;
-    text-decoration: none;
-
-}
-.comprar { 
-    text-decoration: none;
-    padding: 5px;
-    font-weight: 400;
-    font-size: 16px;
-    color: #ffffff;
-    background-color: #D99C52;
-    border-radius: 20px;
-    border: 2px solid #D99C52;
-    position: relative;
-    left: 212px;
-}
 .contenedorTarjetas{
-        
-        justify-content: space-around;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap; 
-        align-items: flex-start;
-        padding: 13px;
-        
-}
-.boxTarjeta1{
-    background-image: url(../img/master.png);
-    background-size: cover;
-    background-color: white;
-    color: beige;
-    height: 91px;
-    width: 143px;
-    border: 2px solid #000;
-     margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 
-    
+
 }
-.boxTarjeta2{
-    background-image: url(../img/mercadoPago.png);
-    background-color: white;
-    color: beige;
-    height: 91px;
-    width: 143px;
-    border: 2px solid #000;
-    margin: 20px;
-    background-size: 141px 103px;
+.contenedorTarjetasImg{
+    position:relative;
 }
-.boxTarjeta3{
-    background-image: url(../img/payPal.png);
-    background-size: cover;
-    background-color: white;
-    color: beige;
-    height: 91px;
-    width: 143px;
-    border: 2px solid #000;
-    margin: 20px;
+.contenedorTarjetas img{
+    max-width: 100%;
 }
-.boxTarjeta4{
-    background-image: url(../img/visa.jpg);
-    background-size: cover;
-    background-color: white;
-    color: beige;
-    height: 91px;
-    width: 143px;
-    border: 2px solid #000;
-    margin: 20px;
+.contenedorTarjetas article{
+    width:calc(6% - 10px);
+
+    margin-top:20px;
+    margin-bottom:20px;
+
 }
+.tituloMedios{
+    position: absolute;
+    background-color: beige;
+}
+.infoCursos{
+    display: flex;
+    justify-content: space-between;
+}
+.textoDerecha{
+    text-align:right;
+    padding:7px;
+}
+.boton{
+    background-color: #1695ac;
+    padding: 7px;
+    border-radius: 7px;
+    color:#fff;
+    text-decoration:none;
+}
+
 footer{
-   background-image: url(../img/747886.jpg);
+  
    padding: 20px; 
 }
 .contenedorFooter{
     justify-content: space-around;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap; 
-    align-items: flex-start;
-    padding: 13px;
+    
 }
-.contenedorFooter div{
- font-weight: bold;
- border: 4px solid #D99C52;
- height: 100px;
- width: 420px;
+.contenedorFooter img{
+    max-width: 100%;
 }
+.contenedorFooter article{
+    width: calc(30% - 20px);
+position: relative;
+display: flex;
+justify-content: space-between;
+}
+
+
+ .contenedorRedesImg div{
+    position:relative;
+ }
+ 
+
+
+ 
+ .menuSuperior li{
+     list-style: none;
+     float: none;
+ }
