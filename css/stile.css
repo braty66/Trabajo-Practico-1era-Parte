@@ -72,10 +72,10 @@ form{
     top:19px;
     
 }
-header button{
+.buscar{
     text-decoration: none;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 23px;
     color: #ffffff;
     background-color: #D99C52;
     border-radius: 20px;
@@ -84,7 +84,8 @@ header button{
     left: 42px;
     height: 53px;
     top: 20px;
-    width: 90px;
+    width: 96px;
+    padding: 10px;
 }
 #miBusqueda{
     font-size: 15px;
