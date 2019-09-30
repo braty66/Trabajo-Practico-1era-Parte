@@ -322,3 +322,158 @@ justify-content: space-between;
      list-style: none;
      float: none;
  }
+ #campoContacto{
+    font-size: 15px;
+    padding: 15px;
+    right: 50px;
+    border-radius: 20px 20px 20px 20px;
+    width: 662px;
+}
+#areaContacto{
+    border-radius:  20px 20px 20px 20px;
+
+}
+#enviar{
+    position: relative;
+    left: 575px;
+    border-radius: 14px;
+    font-size: 24px;
+    padding: 8px;
+    background: #1695ac;
+    color: beige;
+}
+#areaDerecha{
+    position: absolute;
+    border-radius: 20px 20px 20px 20px;
+    top: 17px;
+    left: 693px;
+    padding: 2px;
+}
+.ubicacion{
+    color: rgb(80, 88, 95);
+    text-align: center;
+
+}
+#ubicacion{
+
+    position: relative;
+    background-image: url(../img/ubicacion.png);
+    background-size: cover;
+    top: 50px;
+    padding: 249px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.contactoTitulo{
+    font-size: 35px;
+    color: rgb(80, 88, 95);
+    margin: 20px;
+}
+#formulario{
+    position: relative;
+    left: 0px;
+    top: 19px;
+    margin: 20px;
+}
+.datosDeContacto{
+    position: relative;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    height: 493px;
+    width: 600px;
+    left: 723px;
+    top: -565px;
+}
+.seccionContacto{
+    height: 750px;
+}
+.contenedorImagenTituloCurso{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 29px;
+    padding-top: 29px;
+
+}
+.contenedorImagenTituloCurso article{
+    position: relative;
+    width: calc(30% - 20px);
+}
+.contenedorImagenTituloCurso img{
+    max-width: 84%;
+}
+.contenedorImagenTituloCurso h3{
+    position: relative;
+}
+.contenidoPorClase{
+    text-align: center;
+}
+.grid{
+    display: grid;
+         
+    grid-template-rows: 35px 35px 35px 35px 35px 35px 35px;
+    justify-items: center;
+    align-items: stretch;
+    height: 221px;
+    justify-content: stretch;
+    align-content: center;
+   
+}
+.a { background:beige;
+border: 1px solid rgba(88, 87, 87, 0.815); }
+.b {  background: #bbb7b7;
+    border: 1px solid rgba(88, 87, 87, 0.815); }
+.c {  background: #bbb7b7;
+    border: 1px solid rgba(88, 87, 87, 0.815) }
+.d {  background: #bbb7b7;
+    border: 1px solid rgba(88, 87, 87, 0.815) }
+.e {  background:#bbb7b7;
+    border: 1px solid rgba(88, 87, 87, 0.815)}
+.f {  background:beige;
+    border: 1px solid rgba(88, 87, 87, 0.815)}
+.g {  background:beige;
+    border: 1px solid rgba(88, 87, 87, 0.815)}
+.grid div{
+    width: 440px;
+    padding: 7px;
+}
+.a img{
+    left: 274px;
+    position: relative;
+    top: 2px;
+}
+.b img {
+    position: relative;
+    top: 4px;
+}
+.reloj{
+    left: 22px;
+}
+.c img{
+    position: relative;
+    top: 4px;
+}
+.relojC{
+    left: 10px;
+}
+.verificacionB{
+left:  31px;;
+}
+.verificacionC{
+left: 40px;
+}
+.verificacionD{
+    left:40px;
+
+}
+.d p{
+    position: relative;
+    left: 300px;
+    top: -18px;
+}
+.d img{ 
+    position: relative;
+    top: 4px;
+}
+.relojD{
+    left: 78px;
+}
