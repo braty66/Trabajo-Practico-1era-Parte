@@ -512,5 +512,21 @@ left: 40px;
 }
 .docente{
     position: relative;
-    left: 77px;
+    left: 0px;
+}
+.contenedorCursos2 img{
+    max-width: 100%;
+}
+.contenedorCursos2{
+
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding: 80px;
+}
+.contenedorCursos2 article{
+    width: calc(25% - 20px);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: beige;
 }
