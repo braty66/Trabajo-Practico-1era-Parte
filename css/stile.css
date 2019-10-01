@@ -491,3 +491,26 @@ left: 40px;
     position:relative;
     top:2px;
 }
+.checked {
+    color: orange;
+  }
+  .grid2{
+    display: grid;
+    grid-template-columns: 150px 1050px;
+    justify-items: stretch;
+    align-items: stretch;
+    height: 221px;
+    justify-content: center;
+    align-content: stretch;
+}
+.grid2A img{
+    max-width: 100%;
+}
+.grid2 div{
+    background: beige;
+    border: 1px solid rgba(88, 87, 87, 0.815);
+}
+.docente{
+    position: relative;
+    left: 77px;
+}
