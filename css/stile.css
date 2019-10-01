@@ -455,6 +455,7 @@ border: 1px solid rgba(88, 87, 87, 0.815); }
 .relojC{
     left: 10px;
 }
+
 .verificacionB{
 left:  31px;;
 }
@@ -463,7 +464,9 @@ left: 40px;
 }
 .verificacionD{
     left:40px;
-
+}
+.verificacionE{
+    left: 30px;
 }
 .d p{
     position: relative;
@@ -474,6 +477,17 @@ left: 40px;
     position: relative;
     top: 4px;
 }
-.relojD{
-    left: 78px;
+.e img{
+    position: relative;
+    top: 4px;
+}
+.f img{
+    left: 312px;
+    position: relative;
+    top: 2px;
+}
+.g img{
+    left:312px;
+    position:relative;
+    top:2px;
 }
