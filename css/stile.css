@@ -10,24 +10,99 @@ body{
 
 }
 header{
-    
-    font-family: 'Turret Road', cursive;
-    font-size: 40px;
-    background-image: url(../img/747886.jpg);
-    background-size: cover;
     display: flex;
-    padding: 25px;
+    flex-wrap: nowrap;    
+    font-family: 'Turret Road', cursive;
+    width: 100%;
+    background-image: url(../img/747886.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+    padding: 0px;
 }
-#logo{ 
+header article{
+    width: calc(33% - 20px);
+    padding: 11px;
+    font-size: x-large;
+    color: beige;
     position: relative;
-    bottom: 62px;
-    left: -43px;
-    padding: 45px;
 }
-#logo img{
+
+.seccionesHeader1 div{
+    position: relative;
+    width: 150px;
+    height: 75px;
+    left: 21%;
+    top: 14%;
+}
+.seccionesHeader1 div img{
     position: absolute;
+    max-width: 26%;
+    top: 26%;
+
+}
+.seccionesHeader2{
+
+}
+
+
+.seccionesHeader3{
+
+}
+form{
+    
+    position: relative;
+    top: 42%;
+}
+.buscar{
+    text-decoration: none;
+    color: beige;
+    background-color: #FB9923;
+    border-radius: 15px;
+    border: 2px solid #FB9923;
+    left: 79%;
+    top: 45%;
+    font-size: small;
+    position: absolute;
+    padding: 8px;
+}
+#miBusqueda{
+    padding: 7px;
+    border-radius: 15px;
+    width: 80%;
+}
+#iconoLupa{
+    
+    position: absolute;
+    width: 7%;
+    height: auto;
+    left: 70%;
+    top: 10%;
+  }
+#iconoLupa img{
     max-width: 100%;
 }
+#carrito{
+    position:relative;
+    width: 54px;
+    top: 40%;
+    left: 64%;
+}
+#carrito img{
+    max-width: 100%;
+}
+#contador{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #e64d3c;
+    border-radius: 50%;
+    text-align: center;
+    font-size: initial;
+    left: 75%;
+    
+}
+
 h1{
     color: rgb(226, 219, 219);
 }
@@ -53,11 +128,9 @@ li{
     
 }
 .menu a{
-    font-weight: 600;
-    font-size: 35px;
     color: bisque;
     text-decoration: none;
-    padding: 20px;
+    padding: 10px;
 }
 .menu a:hover{
     color: #D99C52;
@@ -65,70 +138,7 @@ li{
 
 }
 
-form{
-    
-    position: relative;
-    left: 33px;
-    top:19px;
-    
-}
-.buscar{
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 23px;
-    color: #ffffff;
-    background-color: #D99C52;
-    border-radius: 20px;
-    border: 2px solid #D99C52;
-    position: relative;
-    left: 42px;
-    height: 53px;
-    top: 20px;
-    width: 96px;
-    padding: 10px;
-}
-#miBusqueda{
-    font-size: 15px;
-    padding: 15px;
-    right: 50px;
-    border-radius: 20px 20px 20px 20px;
-    width: 500px;
-}
-#iconoLupa{
-    position: absolute;
-    display: flex;
-    left: 856px;
-    top: 50px;
-    height: 42px;
-    width: 44px;
-  }
-#iconoLupa img{
-    max-width: 100%;
-}
-#carrito{
-    position: absolute;
-    padding: 40px;
-    left: 1208px;
-    top: 18px;
-    background-image: url(../img/carro.png);
-    background-size: cover;
-}
-#contador{
-    position: relative;
-    width: 29px;
-    height: 28px;
-    background-color: #e64d3c;
-    border-radius: 50%;
-    right: -297px;
-    display: flex;
-}
-#contador p{
-    font-size: 20px;
-    position: absolute;
-    left: 11px;
-    top: 4px;
 
-}
 #slider{
     background-image: url(../img/people-2557396_1920.jpg);
     height: 720px;
@@ -529,4 +539,10 @@ left: 40px;
     margin-top: 20px;
     margin-bottom: 20px;
     background-color: beige;
+}
+.grid2A{
+    padding: 20px;
+}
+.grid2B{
+    padding: 20px;
 }
