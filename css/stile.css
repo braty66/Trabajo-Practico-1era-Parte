@@ -622,3 +622,29 @@ left: 40px;
     border-radius: 15px;
     width: 465px;
 }
+.contenedorCheck{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+
+}
+.contenedorCheck .check{
+    width: calc(15% - 20px);
+    padding: 25px;
+}
+.contenedorCheck .check img{
+    max-width: 100%;
+}
+.contenedorUbicacion{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+   
+}
+.contenedorUbicacion .ubicacion{
+    width: calc(40% - 10px);
+    padding: 14px;
+}
+.contenedorUbicacion .ubicacion img{
+    max-width: 100%;
+}
