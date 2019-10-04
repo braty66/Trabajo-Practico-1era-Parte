@@ -30,29 +30,20 @@ header article{
 
 .seccionesHeader1 div{
     position: relative;
-    width: 150px;
-    height: 75px;
-    left: 21%;
-    top: 14%;
+    height: auto;
+    width: 17%;
 }
 .seccionesHeader1 div img{
     position: absolute;
-    max-width: 26%;
-    top: 26%;
-
-}
-.seccionesHeader2{
+    max-width: 100%;
+    
 
 }
 
-
-.seccionesHeader3{
-
-}
 form{
     
     position: relative;
-    top: 42%;
+    top: 21%;
 }
 .buscar{
     text-decoration: none;
@@ -60,16 +51,17 @@ form{
     background-color: #FB9923;
     border-radius: 15px;
     border: 2px solid #FB9923;
-    left: 79%;
-    top: 45%;
+    left: 81%;
     font-size: small;
-    position: absolute;
+    position: relative;
     padding: 8px;
+    top: -30%;
 }
 #miBusqueda{
     padding: 7px;
     border-radius: 15px;
     width: 80%;
+    position: relative;
 }
 #iconoLupa{
     
@@ -83,10 +75,10 @@ form{
     max-width: 100%;
 }
 #carrito{
-    position:relative;
-    width: 54px;
-    top: 40%;
-    left: 64%;
+    position: relative;
+    width: 50px;
+    top: 21%;
+    left: 83%;
 }
 #carrito img{
     max-width: 100%;
@@ -109,13 +101,14 @@ h1{
 
 nav{
     background-color:#6AA5D9;
-    display: flex; 
-    justify-content: center;
+    
     
     
 }
 
-
+.menu{
+    display: flex;
+}
 
 li{
   
@@ -139,41 +132,40 @@ li{
 }
 
 
-#slider{
+.slider{
+    display: flex;
     background-image: url(../img/people-2557396_1920.jpg);
-    height: 720px;
-    width: 1349px;
-   
-}
-.comunidad{
-    position: absolute;
-    background-color: beige;
-}
-.flechaIzquierda {
-    background-image: url(../img/flecha-hacia-la-izquierda.png);
+    justify-content: space-between;
     background-size: cover;
-    position: absolute;
-    height: 100px;
-    width: 84px;
-    top: 522px;
+    padding: 133px;
 }
-.flechaDerecha{
-    background-image: url(../img/flecha-derecha.png);
-    background-size: cover;
+.slider h3{
     position: absolute;
-    height: 100px;
-    width: 84px;
-    top: 522px;
-    left:1245px;
+    background: beige;
+    top: -75%;
 }
-.flechaIzquierda2 {
-    background-image: url(../img/flecha-hacia-la-izquierdaChica.png);
-    background-size: cover;
+.slider article {
+    width: calc(50% - 20px);
+    position: relative;
+  }
+  .flecha1 img{
+      max-width: 100%;
+  }
+  .flecha2 img{
+    max-width: 100%;
+}
+.flecha1{
+width: 20%;
+}
+.flecha2{
+    width: 20%;
     position: absolute;
-    height: 85px;
-    width: 68px;
-    top: 2280px;
+    left: 83%;
+
 }
+  
+
+
 .flechaDerecha2{
     background-image: url(../img/flecha-derechaChica.png);
     background-size: cover;
@@ -545,4 +537,88 @@ left: 40px;
 }
 .grid2B{
     padding: 20px;
+}
+.columnas{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+.columnaIzquierda{
+    flex: 50%;
+    padding: 1em;
+
+}
+.columnaIzquierda h3{
+    text-align: center;
+}
+.columnaDerecha{
+    flex: 50%;
+    padding: 4em;
+}
+.columnaDerecha h3{
+    color: beige;
+    background-color: rgba(247, 46, 31, 0.918);
+}
+.columnaDerecha h2{
+    color: beige;
+    background-color:rgba(247, 46, 31, 0.918);
+}
+.imagenGiftCard{
+    position: relative;
+}
+.imagenGiftCard h4{
+    position: absolute;
+    color: beige;
+    padding: 10px;
+    background-color: rgba(247, 46, 31, 0.918);
+    top: 50px;
+    left: 513px;
+
+}
+.imagenGiftCard img {
+        
+    max-width: 100%;
+    padding: 50px;
+}
+.formularioGift{
+    top: 0%;
+  
+}
+.formularioGift input{
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 15px;
+    width: 545px;
+}
+.contenedorColores{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+   
+}
+.contenedorColores .color{
+    width: calc(15% - 20px);
+     padding: 1em;
+}
+
+.contenedorColores div img{
+    max-width: 100%;
+}
+.contenedorPx{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+.contenedorPx .px{
+    width: calc(15% - 20px);
+     padding: 1em;
+}
+.montogift{
+    top: 0px;
+}
+.montogift  input{
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 15px;
+    width: 465px;
 }
