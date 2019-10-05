@@ -637,14 +637,124 @@ left: 40px;
 }
 .contenedorUbicacion{
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     flex-wrap: nowrap;
    
 }
 .contenedorUbicacion .ubicacion{
-    width: calc(40% - 10px);
-    padding: 14px;
+    width: calc(8% - -31px);
+    padding: 10px;
 }
 .contenedorUbicacion .ubicacion img{
     max-width: 100%;
+}
+.contenedorCheck5 .check5{
+    width: calc(14% - 1px);
+    padding: 30px;
+}
+.contenedorCheck5{
+    display: flex;
+    justify-content: start;
+    flex-wrap: nowrap;
+}
+.contenedorCheck4{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+
+}
+.contenedorCheck4 .check4{
+    width: calc(15% - 20px);
+    padding: 15px;
+}
+.check4 img{
+    max-width: 100%;
+}
+#confirmar{
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #FB9923;
+    color: beige;
+    text-decoration: none;
+}
+.h2Inscripcion{
+    color: beige;
+    background-color:rgba(247, 46, 31, 0.918);
+}
+.h4Inscripcion{
+    color: beige;
+    background-color:rgba(247, 46, 31, 0.918);
+    
+}
+.grid-inscripcion{
+    
+    display: grid;
+    grid-template-columns: 25em 25em 25em 5em;
+    grid-template-rows: 50px 50px 50px;
+    justify-items: center;
+    align-items: stretch;
+    height: 275px;
+    justify-content: stretch;
+    align-content: center;
+    grid-column-gap: 22px;
+    grid-row-gap: 51px;
+}
+.grid-inscripcion img{
+    max-width: 100%;
+    padding: 24%;
+    
+}
+.formInscripcion input{
+    font-size: 15px;
+    padding: 7px;
+    right: 50px;
+    border-radius: 15px;
+    width: 25em;
+}
+.grid-item div{
+    position: relative;
+    bottom: 5px
+}
+.gridAgregarPersona{
+    display: grid;
+    grid-template-columns: 5em 11em;
+    grid-template-rows: 4em;
+    justify-items: center;
+    align-items: center;
+    height: 4em;
+    justify-content: stretch;
+    align-content: center;
+    grid-column-gap: 5px;
+   
+}
+.itemAgregar{
+position: relative;
+bottom: 2px;
+}
+.gridAgregarPersona img{
+    max-width: 100%;
+    padding: 17%;
+}
+.itemAgregar h4{
+    color: beige;
+    background-color: rgba(247, 46, 31, 0.918);
+    padding: 5px;
+    width: 100%;
+}
+
+.gridInscribirse{
+    display: grid;
+    grid-template-columns: 7em 11em;
+    grid-template-rows: 4em;
+    justify-items: center;
+    align-items: center;
+    height: 4em;
+    justify-content: stretch;
+    align-content: center;
+    grid-column-gap: 5px;
+}
+.itemInscribirse h4{
+    color: beige;
+    background-color: rgba(247, 46, 31, 0.918);
+    padding: 5px;
 }
