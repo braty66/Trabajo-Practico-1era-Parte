@@ -19,6 +19,11 @@ header{
     justify-content: space-between;
 }
 
+.paddingHorizontal{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 header article{
     width: calc(33% * 3);
     padding: 10px;
@@ -107,37 +112,32 @@ h1{
 }
 
 nav{
-    background-color:#6AA5D9;
-    
-    
-    
-}
-
-.menu{
-    display: flex;
-}
-
-li{
-  
-    float:left;
- 
-}
-.menu li{
-    
-    list-style: none;
-    
-}
-.menu a{
-    color: bisque;
-    text-decoration: none;
+    background-color:rgba(100, 37, 37, 0.795);
     padding: 10px;
 }
-.menu a:hover{
-    color: #D99C52;
-    text-decoration: none;
 
+.menu ul{
+    display: flex;
+    justify-content: space-around;
 }
 
+.menu li{    
+    list-style: none;
+}
+
+.menu a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.menu a:hover{
+    color: rgb(0, 0, 0);
+    background-color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
 
 .slider{
     display: flex;
@@ -146,33 +146,36 @@ li{
     background-size: cover;
     padding: 133px;
 }
+
 .slider h3{
     position: absolute;
     background: beige;
     top: -75%;
 }
+
 .slider article {
     width: calc(50% - 20px);
     position: relative;
-  }
-  .flecha1 img{
+}
+
+.flecha1 img{
       max-width: 100%;
-  }
-  .flecha2 img{
+}
+
+.flecha2 img{
     max-width: 100%;
 }
+
 .flecha1{
 width: 20%;
 }
+
 .flecha2{
     width: 20%;
     position: absolute;
     left: 83%;
-
 }
   
-
-
 .flechaDerecha2{
     background-image: url(../img/flecha-derechaChica.png);
     background-size: cover;
@@ -196,28 +199,33 @@ h3{
 h4{
     text-align: left;
 }
+
 .pasosTitulo{
     background-color: beige;
     position: absolute;
 }
+
 .contenedorPasos{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding-top: 70px;
 }
+
 .contenedorPasos img{
     max-width: 100%;
 
 }
+
 .contenedorImagen{
     position: relative;
 }
+
 .contenedorPasos article{
     width: calc(30% - 20px);
-    
-    
+
 }
+
 .contenedorImagen h4{
     position:absolute;
     right: 0;
@@ -232,18 +240,22 @@ h4{
     justify-content: space-around;
     padding: 80px;
 }
+
 .contenedorCursos img{
     max-width: 100%;
 }
+
 .contenedorCursos article{
     width:calc(30% - 20px);
     margin-top:20px;
     margin-bottom:20px;
     background-color: beige;
 }
+
 .contenedorImagen{
     position:relative;
 }
+
 .contenedorImagen h4{
     position: absolute;
     right:0;
@@ -252,9 +264,9 @@ h4{
     color:#ccc;
     padding:7px;
 }
+
 .tituloDestacados{
     background-color: beige;
-
     position: absolute;
 }
 
@@ -262,75 +274,76 @@ h4{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-
-
 }
+
 .contenedorTarjetasImg{
     position:relative;
 }
+
 .contenedorTarjetas img{
     max-width: 100%;
 }
+
 .contenedorTarjetas article{
     width:calc(6% - 10px);
-
     margin-top:20px;
     margin-bottom:20px;
-
 }
+
 .tituloMedios{
     position: absolute;
     background-color: beige;
 }
+
 .infoCursos{
     display: flex;
     justify-content: space-between;
+    padding: 5px;
 }
+
 .textoDerecha{
     text-align:right;
     padding:7px;
 }
-.boton{
+
+.textoDerecha .boton{
     background-color: #1695ac;
     padding: 7px;
-    border-radius: 7px;
+    border-radius: 5px;
     color:#fff;
     text-decoration:none;
 }
 
-footer{
-  
+footer{ 
    padding: 20px; 
+   background: #fff;
 }
+
 .contenedorFooter{
     justify-content: space-around;
     display: flex;
-    flex-wrap: wrap; 
-    
+    flex-wrap: wrap;  
 }
 .contenedorFooter img{
     max-width: 100%;
 }
+
 .contenedorFooter article{
     width: calc(30% - 20px);
-position: relative;
-display: flex;
-justify-content: space-between;
-
+    position: relative;
+    display: flex;
+    justify-content: space-between;
 }
-
 
  .contenedorRedesImg div{
     position:relative;
  }
  
-
-
- 
  .menuSuperior li{
      list-style: none;
      float: none;
  }
+
  #campoContacto{
     font-size: 15px;
     padding: 15px;
@@ -338,10 +351,11 @@ justify-content: space-between;
     border-radius: 20px 20px 20px 20px;
     width: 662px;
 }
+
 #areaContacto{
     border-radius:  20px 20px 20px 20px;
-
 }
+
 #enviar{
     position: relative;
     left: 575px;
@@ -351,6 +365,7 @@ justify-content: space-between;
     background: #1695ac;
     color: beige;
 }
+
 #areaDerecha{
     position: absolute;
     border-radius: 20px 20px 20px 20px;
@@ -358,13 +373,13 @@ justify-content: space-between;
     left: 693px;
     padding: 2px;
 }
+
 .ubicacion{
     color: rgb(80, 88, 95);
     text-align: center;
-
 }
-#ubicacion{
 
+#ubicacion{
     position: relative;
     background-image: url(../img/ubicacion.png);
     background-size: cover;
@@ -373,17 +388,20 @@ justify-content: space-between;
     margin-left: 20px;
     margin-right: 20px;
 }
+
 .contactoTitulo{
     font-size: 35px;
     color: rgb(80, 88, 95);
     margin: 20px;
 }
+
 #formulario{
     position: relative;
     left: 0px;
     top: 19px;
     margin: 20px;
 }
+
 .datosDeContacto{
     position: relative;
     background-color: white;
@@ -393,74 +411,105 @@ justify-content: space-between;
     left: 723px;
     top: -565px;
 }
+
 .seccionContacto{
     height: 750px;
 }
+
 .contenedorImagenTituloCurso{
     display: flex;
     justify-content: space-around;
     padding-bottom: 29px;
     padding-top: 29px;
-
 }
+
 .contenedorImagenTituloCurso article{
     position: relative;
     width: calc(30% - 20px);
 }
+
 .contenedorImagenTituloCurso img{
     max-width: 84%;
 }
+
 .contenedorImagenTituloCurso h3{
     position: relative;
 }
+
 .contenidoPorClase{
     text-align: center;
 }
+
 .grid{
-    display: grid;
-         
+    display: grid;   
     grid-template-rows: 35px 35px 35px 35px 35px 35px 35px;
     justify-items: center;
     align-items: stretch;
     height: 221px;
     justify-content: stretch;
     align-content: center;
-   
 }
-.a { background:beige;
-border: 1px solid rgba(88, 87, 87, 0.815); }
-.b {  background: #bbb7b7;
-    border: 1px solid rgba(88, 87, 87, 0.815); }
-.c {  background: #bbb7b7;
-    border: 1px solid rgba(88, 87, 87, 0.815) }
-.d {  background: #bbb7b7;
-    border: 1px solid rgba(88, 87, 87, 0.815) }
-.e {  background:#bbb7b7;
-    border: 1px solid rgba(88, 87, 87, 0.815)}
-.f {  background:beige;
-    border: 1px solid rgba(88, 87, 87, 0.815)}
-.g {  background:beige;
-    border: 1px solid rgba(88, 87, 87, 0.815)}
+
+.a {
+    background:beige;
+    border: 1px solid rgba(88, 87, 87, 0.815);
+ }
+
+.b {
+    background: #bbb7b7;
+    border: 1px solid rgba(88, 87, 87, 0.815);
+ }
+
+.c {
+    background: #bbb7b7;
+    border: 1px solid rgba(88, 87, 87, 0.815)
+ }
+
+.d {
+    background: #bbb7b7;
+    border: 1px solid rgba(88, 87, 87, 0.815)
+ }
+
+.e {
+    background:#bbb7b7;
+    border: 1px solid rgba(88, 87, 87, 0.815)
+}
+
+.f {
+    background:beige;
+    border: 1px solid rgba(88, 87, 87, 0.815)
+}
+
+.g {
+    background:beige;
+    border: 1px solid rgba(88, 87, 87, 0.815)
+}
+
 .grid div{
     width: 440px;
     padding: 7px;
 }
+
 .a img{
     left: 274px;
     position: relative;
     top: 2px;
 }
+
 .b img {
     position: relative;
     top: 4px;
 }
+
 .reloj{
     left: 22px;
 }
+
 .c img{
     position: relative;
     top: 4px;
 }
+
 .relojC{
     left: 10px;
 }
@@ -477,6 +526,7 @@ left: 40px;
 .verificacionE{
     left: 30px;
 }
+
 .d p{
     position: relative;
     left: 300px;
@@ -503,7 +553,8 @@ left: 40px;
 .checked {
     color: orange;
   }
-  .grid2{
+
+.grid2{
     display: grid;
     grid-template-columns: 150px 1050px;
     justify-items: stretch;
@@ -516,13 +567,19 @@ left: 40px;
     max-width: 100%;
 }
 .grid2 div{
-    background: beige;
+    background: rgb(252, 252, 252);
     border: 1px solid rgba(88, 87, 87, 0.815);
 }
-.docente{
-    position: relative;
+.docentesH2{
+    text-align: center;
     left: 0px;
+    padding: 30px;
 }
+
+.docenteSection{
+    padding: 20px;
+}
+
 .contenedorCursos2 img{
     max-width: 100%;
 }
@@ -537,13 +594,18 @@ left: 40px;
     width: calc(25% - 20px);
     margin-top: 20px;
     margin-bottom: 20px;
-    background-color: beige;
+    padding-bottom: 10px;
+    background-color: #fff;
 }
 .grid2A{
     padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
 }
 .grid2B{
     padding: 20px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 .columnas{
     justify-content: space-between;
