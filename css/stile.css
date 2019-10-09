@@ -349,12 +349,13 @@ footer{
     font-size: 15px;
     padding: 15px;
     right: 50px;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 10px 10px 10px 10px;
     width: 662px;
 }
 
 #areaContacto{
-    border-radius:  20px 20px 20px 20px;
+    border-radius:  15px 15px 15px 15px;
+    padding: 15px;
 }
 
 #enviar{
